@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Home Section*/
+
+#menu {
+  position: fixed;
+  left: 210px;
+  top: 0;
+  width: 1139px;
+  height: 80px;
+  background-color: #FFFFFF;
+}
+
+ul {
+  line-height: 80px;
+  margin-left: 50px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a{
+font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #6C7074;
+  padding: 0 20px;
+  display: block;
+}
+
+ul li a:hover {
+  color: #4C8747;
+}
+
+.background_image {
+  position: absolute;
+  top: 80px;
+  left: 0;
+height: 577px;
+width: 1349px;
+background-image: url(images/home_background.png);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.logo_image {
+  width: 170px;
+  height: 30px;
+ position: fixed;
+ top: 25px;
+ left: 30px;
+}
+
+.background_image h1 {
+  color: #FFFFFF;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.background_image p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 50px;
+  top: 360px;
+  opacity: 73%;
+}
+
+.request {
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 60px;
+  background-color: #2eb82e;
+  border-color: #4c8747;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 1px;
+  font-weight: bold;
+
+}
+/*About Us Section*/
+
+#about_us {
+  width: 1349px;
+  height: 657PX;
+  background-color: #FBFFF1;
+  position: absolute;
+  top: 657px;
+}
+
+#about_us h1 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+#about_us p {
+  color: #0000000;
+  font-size: 15x;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  line-height: 25px;
+}
+
+.about_image {
+  width: 450px;
+  height: 580px;
+  position: absolute;
+  left: 750px;
+  top: 50px;
+}
+
+.container {
+  width: 550px;
+  height:300px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: #46d246;
+  border-radius: 30px;
+  box-shadow: Gray 4px 4px 2px;
+}
+
+/*How we work Section*/
+
+#how_we_work {
+  width: 1349px;
+  height: 200px;
+  background-color:#f5f8f5;
+  position: absolute;
+  top: 1314px;
+}
+#how_we_work h1 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+
+#how_we_work p {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.chat {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+}
+
+.delivery {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 30px;
+  left: 599px;
+}
+
+.payment {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 30px;
+  right: 200px;
+}
+
+.chat_text {
+  background-color: red;
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+}
+.how_we_work_logo {
+  width: 1349px;
+  height: 457px;
+  background-color:#f5f8f5;
+  position: absolute;
+  top: 1514px;
+}
+
+
+.chat_text {
+  width: 250px;
+  height: 150px;
+  background-color: #f5f8f5;
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+
+.delivery_text {
+  width: 250px;
+  height: 150px;
+  background-color: #f5f8f5;
+  position: absolute;
+  top: 180px;
+  left: 549px;
+}
+
+.payment_text {
+  width: 250px;
+  height: 150px;
+  background-color: #f5f8f5;
+  position: absolute;
+  top: 180px;
+  right: 150px;
+}
+
+.chat_text h2 {
+    font-family: 'Roboto', sans-serif;
+      text-align: center;
+      position: relative;
+      top: 20px;
+      color: #545454;
+}
+
+.chat_text p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      position: relative;
+      top: 40px;
+      color: #827B7B
+}
+
+.delivery_text h2 {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      position: relative;
+      top: 20px;
+      color: #545454;
+}
+
+.delivery_text p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: #827B7B
+}
+
+.payment_text h2 {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      position: relative;
+      top: 20px;
+      color: #545454;
+}
+
+.payment_text p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      position: relative;
+      top: 40px;
+      color: #827B7B
+}
+
+/*Join Us Vendors Section*/
+
+#join_us_vendor {
+  width: 650px;
+  height: 657px;
+  background-color: yellow;
+  position: absolute;
+  top: 1971px;
+}
+
+.vendors {
+  width: 650px;
+  height: 657px;
+}
+.details {
+  width: 699px;
+  height: 657px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 650px;
+  top: 1971px;
+}
+
+.details h1 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-family: 'Roboto', sans-serif;
+  }
+
+hr {
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.details_1 {
+  width: 280px;
+  height: 350px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 120px;
+  left: 30px;
+}
+
+.details_2 {
+  width: 280px;
+  height: 350px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 120px;
+  left: 350px;
+}
+
+.details_3 {
+  width: 600px;
+  height: 120px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+
+
+.details_1 input {
+  width: 250px;
+  height: 50px;
+  margin-left: 30px;
+  background-color: #F3F3F3;
+  border-color: #D6D6D6;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.details_1 label {
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.details_2 input {
+  width: 250px;
+  height: 50px;
+  margin-left: 30px;
+  background-color: #F3F3F3;
+  border-color: #D6D6D6;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.details_2 label {
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.details_3 input {
+  width: 570px;
+  height: 80px;
+  margin-left: 30px;
+  background-color: #F3F3F3;
+  border-color: #D6D6D6;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.details_3 label {
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 590px;
+    left: 530px;
+    background-color: #2eb82e;
+    border-color: #4c8747;
+    color: #ffffff;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: bold;
+}
